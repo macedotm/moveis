@@ -1,8 +1,8 @@
-var banners = ["Os melhores do Brasil!", "Qualidade e preço baixo!"];
+var banners = ["Do lixo ao luxo!", "Reaproveitar é aproveitar"];
 var bannerAtual = 0;
 
 function trocaBanner() {
-	bannerAtuak = (bannerAtual + 1) % 2;
+	bannerAtual = (bannerAtual + 1) % 2;
 	document.querySelector('h2#mensagem').textContent = banners[bannerAtual];
 }
 
